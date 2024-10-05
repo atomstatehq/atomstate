@@ -105,6 +105,10 @@ public class Default {
      * Determines the default number of threads to be used for HNSW graph building
      * and optimization tasks based on the number of CPUs available.
      * <p>
+     * HNSW (Hierarchical Navigable Small Worlds) graph building is a sophisticated method used
+     * primarily for efficient approximate nearest neighbor (ANN) searches in high-dimensional spaces.
+     *
+     * <p>
      * The number of threads is determined as follows:
      * <ul>
      *   <li>At least 1 thread and at most 8 threads for up to 48 CPUs</li>
